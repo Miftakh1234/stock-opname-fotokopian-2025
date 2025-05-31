@@ -19,7 +19,7 @@ Quagga.init({
   });
   
   function sendToGoogleSheet(barcode) {
-    fetch("https://script.google.com/macros/s/YOUR_SCRIPT_ID/exec", {
+    fetch(https://script.google.com/macros/s/AKfycbyqBNQ54YHZaqAnGOCMWr92WW6m2CjNq9fVYPeJiNdOLw2MODpXCJoGcAYp5j2F1zI71Q/exec, {
       method: "POST",
       body: JSON.stringify({ barcode: barcode }),
       headers: { "Content-Type": "application/json" }
